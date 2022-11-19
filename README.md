@@ -1,4 +1,4 @@
-# Curso-Introducion-C
+# Curso-Introduccion-C
 Curso de Introducción a C de Platzi
 
 1. Introducción al lenguaje C
