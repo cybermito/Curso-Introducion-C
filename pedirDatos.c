@@ -13,9 +13,17 @@ char cadena[128]; //indicamos el número de caracteres que podrá tener el texto
 //caracter es el \0 null que es donde terminaría la palabra. 
 float flotante;
 char letra;
+char nombre[10];
+char apellido[19];
 
 
 int main(){
+
+    printf("Introduce una letra: ");
+    scanf(" %c", &letra); //Para la solicitud de un solo carácter en el formato hay que anteponer el \n
+    printf("Has escrito la letra: %c\n", letra);
+
+    printf("\n");
 
     printf("Introduce el primer dato: ");
     scanf("%d", &dato);
@@ -38,9 +46,11 @@ int main(){
     scanf("%f", &flotante);
     printf("El número en coma flotante es: %f\n", flotante);
 
-    printf("Introduce una letra: ");
-    scanf("\n%c", &letra); //Para la solicitud de un solo carácter en el formato hay que anteponer el \n
-    printf("Has escrito la letra: %c\n", letra);
+    //Probando scanf con dos argumentos
+    printf("Ingresa tu nombre y apellido: ");
+    scanf("%s %s", nombre, apellido);
+    printf("Tu nombre es %s y tu apellido es %s\n", nombre, apellido);
+
 
 return 0;
 }
