@@ -52,5 +52,5 @@ int main(){
     printf("Tu nombre es %s y tu apellido es %s\n", nombre, apellido);
 
 
-return 0;
+    return 0;
 }
