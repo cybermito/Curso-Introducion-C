@@ -21,4 +21,7 @@ Curso de Flujo en C
 1. Condicionales: Sentencia If Else
 2. If anidados
 3. Función scanf para la toma de datos desde terminal. (Este apartado ha sido sacado del libro)
-4. 
+4. Expresión switch case
+5. Bucle while
+6. Bucle do While
+7. 
