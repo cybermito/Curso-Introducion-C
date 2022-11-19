@@ -19,7 +19,7 @@ int main(){
 
     printf("Introduce el primer dato: ");
     scanf("%d", &dato);
-    printf("\nHas introducido el dato %d\n", dato);
+    printf("Has introducido el dato %d\n", dato);
 
     printf("\n");
 
@@ -37,6 +37,10 @@ int main(){
     printf("Introduce un número en coma flotante: ");
     scanf("%f", &flotante);
     printf("El número en coma flotante es: %f\n", flotante);
+
+    printf("Introduce una letra: ");
+    scanf("\n%c", &letra); //Para la solicitud de un solo carácter en el formato hay que anteponer el \n
+    printf("Has escrito la letra: %c\n", letra);
 
 return 0;
 }
