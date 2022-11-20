@@ -1,4 +1,5 @@
 # Curso-Introduccion-C
+
 Curso de Introducción a C de Platzi
 
 1. Introducción al lenguaje C
@@ -24,4 +25,5 @@ Curso de Flujo en C
 4. Expresión switch case
 5. Bucle while
 6. Bucle do While
-7. 
+7. Bucle for
+8. 
