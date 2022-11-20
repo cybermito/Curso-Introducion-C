@@ -27,4 +27,6 @@ Curso de Flujo en C
 6. Bucle do While
 7. Bucle for
 8. Expresión break
-9. 
+9. Expresión Continue
+10. Expresión GOTO (No usar nunca)
+11. Fin.
